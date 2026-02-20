@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service_account.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & Logs
+*.csv
+*.xlsx
+*.log
+logs/
+output/
+results/
+!examples/*.csv
+
+# Tor
+tor_data/
+__pycache__/
